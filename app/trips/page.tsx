@@ -30,6 +30,7 @@ const TripsPage = async () => {
 
   return (
     <ClientOnly>
+      {/*@ts-ignore*/}
       <TripsClient reservations={reservations} currentUser={currentUser} />
     </ClientOnly>
   );
